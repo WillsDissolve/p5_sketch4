@@ -20,7 +20,8 @@ function draw(){
   ellipse(circleX, circleY, circleSize);
   
   fill(106, 193, 76);
-  rect(200,240,100,15);
+  noStroke();
+  rect(188,235,125,30);
   
   fill('black');
   strokeWeight(2);
